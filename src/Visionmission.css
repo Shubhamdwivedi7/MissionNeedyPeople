@@ -1,0 +1,23 @@
+@media only screen and (max-width : 450px) {
+    
+    .vision-1 {
+        /* margin: 1rem 0; */
+        padding: 2rem 0;
+    }
+    
+    .vision-2 {
+        /* padding: 0 0 0 1rem; */
+        width: 80%;
+    }
+
+    .vision-head {
+        font-size: 1.9rem;
+        padding: 1rem 0;
+    }
+
+    .vision-text {
+        width: 100%;
+        padding: 0 1rem;
+        font-size: 1rem;
+    }
+}

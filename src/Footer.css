@@ -1,0 +1,47 @@
+@media only screen and (max-width : 450px){
+ 
+    .section-1 div h4 {
+        /* font-size: 20px; */
+    }
+
+    .image img {
+        height: 2rem;
+        width: 2rem;
+    }
+ 
+    .section-2 {
+    font-size: 13px;
+    gap: 0;
+    padding: 0 20px;
+    height: 37vh;
+    /* justify-content: space-between */
+ }   
+
+ .section {
+    /* width: ; */
+ }
+ .section h2 {
+    font-size: 20px;
+ }
+
+ .logo-section {
+    padding: 0 10px;
+    width: 55%;
+ }
+
+ .logo-up {
+    margin-bottom: .75rem;
+ }
+
+ .section-3 {
+    padding: 0 15px;
+ }
+
+ .section-3 p {
+    font-size: 13px;
+ }
+
+ hr {
+    border-top: 2px;
+ }
+}

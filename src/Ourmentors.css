@@ -1,0 +1,56 @@
+
+@media only screen and (max-width: 450px){
+    
+    .mentor-shivam {
+        display: block;
+    }
+
+    .shivam-image {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .shivam-text {
+        padding: 0;
+    }
+    .shivam-text h2{
+        margin: 20px 0;
+    }
+
+    .shivam-text h4,h3 {
+        font-size: 1.5rem;
+        padding: 0 25px;
+    }
+
+
+    .mentor-principle, .mentor-deeksha,.mentor-mohit {
+        display: block;
+        padding: 20px 0;
+    }
+
+    .father-image-1 ,.mohit-image-1, .deeksha-image{
+        display: block;
+        width: 100%;
+    }
+    .father-image-2,.mohit-image-2 {
+        display: none;
+    }
+
+    .father-text, .deeksha-text ,.mohit-text{
+        width: 100%;
+    }
+
+    .father-name {
+        width: 100%;
+    }
+    .father-name h2,.mohit-text h2 ,.deeksha-text h2{
+        /* width: 100%; */
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .father-work, .deeksha-work, .mohit-work {
+        font-size: 1.5rem;
+        padding: 0 15px;
+    }
+}
