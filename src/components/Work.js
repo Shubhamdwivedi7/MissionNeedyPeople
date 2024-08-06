@@ -1,4 +1,5 @@
 import React from 'react'
+import  { Link } from "react-router-dom";
 
 export default function Work(){
 
@@ -25,7 +26,7 @@ export default function Work(){
                         We help the needy and those who are strangled or stranded. We provide them with the weaponry necessary to curb the capitalists' tyranny. We are actually helping ourselves to get a sense of fulfilling our duties, and we feel a 
                         bit contented when we serve the impaired section of our society. To get involved, try to become a part of it.
                     </h4>
-                    <button className='text-white font-medium bg-green-700 hover:bg-green-600 shadow-lg' style={borderStyle}>Donate</button>
+                    <button className='text-white font-medium bg-green-700 hover:bg-green-600 shadow-lg' style={borderStyle}><Link className="font-bold text-white" to="https://forms.gle/fpgyYNW3yHmn52vv7">Donate</Link></button>
 
                 </div>
 
@@ -85,7 +86,7 @@ export default function Work(){
 
                 <div className='w-full h-fit pb-20 flex justify-center items-center'>
                         <button className='donate-button w-1/5 h-20 font-semibold text-white hover:bg-green-600 text-2xl bg-green-700 shadow-lg rounded-xl'>
-                           Donate 
+                            <Link className="font-bold text-white" to="https://forms.gle/fpgyYNW3yHmn52vv7">Donate</Link>
                         </button>
                     </div>
             </div>    
